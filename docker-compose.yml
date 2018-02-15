@@ -1,0 +1,8 @@
+version: '2'
+services:
+    app2:
+        build: app
+        container_name: app_pay_task
+        restart: always
+        volumes:
+            - ../PayTask:/var/www/html
