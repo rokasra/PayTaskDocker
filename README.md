@@ -7,4 +7,5 @@ Docker-compose 1.11.2 ar aukštesnė
 
 #Paleidimas
 docker-compose build
+
 docker-compose up -d
